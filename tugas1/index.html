@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  .nilai{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center; /* Mengatur teks ramalan menjadi rata kiri */
+    position: relative;
+    z-index: 1;
+    left: 30px;
+    margin-top: 22.5%;
+    margin-left: 38%;
+
+  }
+  
+</style>
+
+<div class="nilai">
+<script type="text/javascript">
+    var nilai;
+    
+  nilai=77;
+  var nilai = parseInt(prompt("Masukkan Nilai:"));
+
+
+  if (nilai>=80 && nilai <=100){
+    document.write(" A");
+  }
+
+  else if (nilai>=70 && nilai <=79){
+    document.write(" B");
+  }
+
+  else if (nilai>=60 && nilai <=69){
+    document.write(" C");
+  }
+  else if (nilai>=50 && nilai <=59){
+    document.write(" D");
+  }
+  else if (nilai>=40 && nilai <=49){
+    document.write(" E");
+  }
+  else if (nilai>=10 && nilai <=39){
+    document.write(" F");
+  }
+
+  document.write("<p>Nilai Kamu: " + nilai + "</p>");
+ 
+
+</script>
+</div>
+<body bgcolor="#08142c">
+    <div class="tombol">
+
+    </div>
+</body>
+</html>
